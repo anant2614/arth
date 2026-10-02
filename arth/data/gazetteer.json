@@ -1,0 +1,2007 @@
+{
+ "merchants": [
+  {
+   "name": "Swiggy",
+   "concept": "food_delivery",
+   "aliases": [
+    "SWIGGY",
+    "BUNDL TECHNOLOGIES"
+   ]
+  },
+  {
+   "name": "Zomato",
+   "concept": "food_delivery",
+   "aliases": [
+    "ZOMATO",
+    "ZOMATOONLINE"
+   ]
+  },
+  {
+   "name": "EatSure",
+   "concept": "food_delivery",
+   "aliases": [
+    "EATSURE",
+    "REBEL FOODS"
+   ]
+  },
+  {
+   "name": "Dominos",
+   "concept": "food_delivery",
+   "aliases": [
+    "DOMINOS",
+    "JUBILANT FOODWORKS"
+   ]
+  },
+  {
+   "name": "Swiggy Instamart",
+   "concept": "groceries",
+   "aliases": [
+    "INSTAMART",
+    "SWIGGYINSTAMART"
+   ]
+  },
+  {
+   "name": "Blinkit",
+   "concept": "groceries",
+   "aliases": [
+    "BLINKIT",
+    "GROFERS"
+   ]
+  },
+  {
+   "name": "Zepto",
+   "concept": "groceries",
+   "aliases": [
+    "ZEPTO",
+    "KIRANAKART"
+   ]
+  },
+  {
+   "name": "BigBasket",
+   "concept": "groceries",
+   "aliases": [
+    "BIGBASKET",
+    "SUPERMARKET GROCERY SUPPLIES",
+    "BBNOW"
+   ]
+  },
+  {
+   "name": "DMart",
+   "concept": "groceries",
+   "aliases": [
+    "DMART",
+    "AVENUE SUPERMARTS"
+   ]
+  },
+  {
+   "name": "Reliance Smart",
+   "concept": "groceries",
+   "aliases": [
+    "RELIANCE SMART",
+    "RELIANCE FRESH",
+    "SMART BAZAAR"
+   ]
+  },
+  {
+   "name": "JioMart",
+   "concept": "groceries",
+   "aliases": [
+    "JIOMART"
+   ]
+  },
+  {
+   "name": "More Retail",
+   "concept": "groceries",
+   "aliases": [
+    "MORE RETAIL",
+    "MORE SUPERMARKET"
+   ]
+  },
+  {
+   "name": "Spencers",
+   "concept": "groceries",
+   "aliases": [
+    "SPENCERS"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "concept": "shopping",
+   "aliases": [
+    "AMAZON",
+    "AMZN"
+   ]
+  },
+  {
+   "name": "Flipkart",
+   "concept": "shopping",
+   "aliases": [
+    "FLIPKART",
+    "FKRT"
+   ]
+  },
+  {
+   "name": "Myntra",
+   "concept": "shopping",
+   "aliases": [
+    "MYNTRA"
+   ]
+  },
+  {
+   "name": "Ajio",
+   "concept": "shopping",
+   "aliases": [
+    "AJIO"
+   ]
+  },
+  {
+   "name": "Meesho",
+   "concept": "shopping",
+   "aliases": [
+    "MEESHO"
+   ]
+  },
+  {
+   "name": "Nykaa",
+   "concept": "shopping",
+   "aliases": [
+    "NYKAA"
+   ]
+  },
+  {
+   "name": "Croma",
+   "concept": "shopping",
+   "aliases": [
+    "CROMA",
+    "INFINITI RETAIL"
+   ]
+  },
+  {
+   "name": "Reliance Digital",
+   "concept": "shopping",
+   "aliases": [
+    "RELIANCE DIGITAL"
+   ]
+  },
+  {
+   "name": "Decathlon",
+   "concept": "shopping",
+   "aliases": [
+    "DECATHLON"
+   ]
+  },
+  {
+   "name": "IKEA",
+   "concept": "shopping",
+   "aliases": [
+    "IKEA"
+   ]
+  },
+  {
+   "name": "Lifestyle",
+   "concept": "shopping",
+   "aliases": [
+    "LIFESTYLE INTERNATIONAL"
+   ]
+  },
+  {
+   "name": "Westside",
+   "concept": "shopping",
+   "aliases": [
+    "WESTSIDE",
+    "TRENT LTD"
+   ]
+  },
+  {
+   "name": "Indian Oil",
+   "concept": "fuel",
+   "aliases": [
+    "INDIAN OIL",
+    "IOCL",
+    "INDIANOIL"
+   ]
+  },
+  {
+   "name": "HP Petrol",
+   "concept": "fuel",
+   "aliases": [
+    "HPCL",
+    "HINDUSTAN PETROLEUM",
+    "HP PETROL"
+   ]
+  },
+  {
+   "name": "Bharat Petroleum",
+   "concept": "fuel",
+   "aliases": [
+    "BPCL",
+    "BHARAT PETROLEUM"
+   ]
+  },
+  {
+   "name": "Shell",
+   "concept": "fuel",
+   "aliases": [
+    "SHELL INDIA",
+    "SHELL PETROL"
+   ]
+  },
+  {
+   "name": "Nayara",
+   "concept": "fuel",
+   "aliases": [
+    "NAYARA"
+   ]
+  },
+  {
+   "name": "Uber",
+   "concept": "cab_ride",
+   "aliases": [
+    "UBER"
+   ]
+  },
+  {
+   "name": "Ola",
+   "concept": "cab_ride",
+   "aliases": [
+    "OLACABS",
+    "ANI TECHNOLOGIES",
+    "OLA CABS"
+   ]
+  },
+  {
+   "name": "Rapido",
+   "concept": "cab_ride",
+   "aliases": [
+    "RAPIDO",
+    "ROPPEN"
+   ]
+  },
+  {
+   "name": "FASTag",
+   "concept": "cab_ride",
+   "aliases": [
+    "FASTAG",
+    "NETC"
+   ]
+  },
+  {
+   "name": "Delhi Metro",
+   "concept": "cab_ride",
+   "aliases": [
+    "DMRC",
+    "DELHI METRO"
+   ]
+  },
+  {
+   "name": "Mumbai Metro",
+   "concept": "cab_ride",
+   "aliases": [
+    "MUMBAI METRO",
+    "MMOPL"
+   ]
+  },
+  {
+   "name": "Namma Yatri",
+   "concept": "cab_ride",
+   "aliases": [
+    "NAMMA YATRI",
+    "NAMMAYATRI"
+   ]
+  },
+  {
+   "name": "IRCTC",
+   "concept": "travel",
+   "aliases": [
+    "IRCTC"
+   ]
+  },
+  {
+   "name": "MakeMyTrip",
+   "concept": "travel",
+   "aliases": [
+    "MAKEMYTRIP",
+    "MMT"
+   ]
+  },
+  {
+   "name": "Goibibo",
+   "concept": "travel",
+   "aliases": [
+    "GOIBIBO",
+    "IBIBO"
+   ]
+  },
+  {
+   "name": "IndiGo",
+   "concept": "travel",
+   "aliases": [
+    "INDIGO",
+    "INTERGLOBE AVIATION"
+   ]
+  },
+  {
+   "name": "Air India",
+   "concept": "travel",
+   "aliases": [
+    "AIR INDIA",
+    "AIRINDIA"
+   ]
+  },
+  {
+   "name": "Akasa Air",
+   "concept": "travel",
+   "aliases": [
+    "AKASA"
+   ]
+  },
+  {
+   "name": "redBus",
+   "concept": "travel",
+   "aliases": [
+    "REDBUS"
+   ]
+  },
+  {
+   "name": "OYO",
+   "concept": "travel",
+   "aliases": [
+    "OYO",
+    "ORAVEL"
+   ]
+  },
+  {
+   "name": "Cleartrip",
+   "concept": "travel",
+   "aliases": [
+    "CLEARTRIP"
+   ]
+  },
+  {
+   "name": "EaseMyTrip",
+   "concept": "travel",
+   "aliases": [
+    "EASEMYTRIP"
+   ]
+  },
+  {
+   "name": "Netflix",
+   "concept": "entertainment",
+   "aliases": [
+    "NETFLIX"
+   ]
+  },
+  {
+   "name": "JioHotstar",
+   "concept": "entertainment",
+   "aliases": [
+    "HOTSTAR",
+    "JIOHOTSTAR",
+    "NOVI DIGITAL"
+   ]
+  },
+  {
+   "name": "Spotify",
+   "concept": "entertainment",
+   "aliases": [
+    "SPOTIFY"
+   ]
+  },
+  {
+   "name": "BookMyShow",
+   "concept": "entertainment",
+   "aliases": [
+    "BOOKMYSHOW",
+    "BIGTREE"
+   ]
+  },
+  {
+   "name": "PVR INOX",
+   "concept": "entertainment",
+   "aliases": [
+    "PVR",
+    "INOX"
+   ]
+  },
+  {
+   "name": "YouTube Premium",
+   "concept": "entertainment",
+   "aliases": [
+    "YOUTUBE",
+    "GOOGLE PLAY",
+    "GOOGLEPLAY"
+   ]
+  },
+  {
+   "name": "SonyLIV",
+   "concept": "entertainment",
+   "aliases": [
+    "SONYLIV"
+   ]
+  },
+  {
+   "name": "Dream11",
+   "concept": "entertainment",
+   "aliases": [
+    "DREAM11",
+    "DREAM SPORTS"
+   ]
+  },
+  {
+   "name": "Jio",
+   "concept": "telecom",
+   "aliases": [
+    "JIO PREPAID",
+    "RELIANCE JIO",
+    "JIO RECHARGE",
+    "MYJIO",
+    "JIOFIBER",
+    "JIO FIBER"
+   ]
+  },
+  {
+   "name": "Airtel",
+   "concept": "telecom",
+   "aliases": [
+    "AIRTEL",
+    "BHARTI AIRTEL"
+   ]
+  },
+  {
+   "name": "Vi",
+   "concept": "telecom",
+   "aliases": [
+    "VODAFONE",
+    "VODAFONEIDEA",
+    "VI PREPAID",
+    "IDEA CELLULAR"
+   ]
+  },
+  {
+   "name": "BSNL",
+   "concept": "telecom",
+   "aliases": [
+    "BSNL"
+   ]
+  },
+  {
+   "name": "ACT Fibernet",
+   "concept": "telecom",
+   "aliases": [
+    "ACT FIBERNET",
+    "ATRIA CONVERGENCE"
+   ]
+  },
+  {
+   "name": "Tata Play",
+   "concept": "telecom",
+   "aliases": [
+    "TATA PLAY",
+    "TATASKY",
+    "TATA SKY"
+   ]
+  },
+  {
+   "name": "Hathway",
+   "concept": "telecom",
+   "aliases": [
+    "HATHWAY"
+   ]
+  },
+  {
+   "name": "BESCOM",
+   "concept": "utilities",
+   "aliases": [
+    "BESCOM"
+   ]
+  },
+  {
+   "name": "Tata Power",
+   "concept": "utilities",
+   "aliases": [
+    "TATA POWER",
+    "TPDDL"
+   ]
+  },
+  {
+   "name": "Adani Electricity",
+   "concept": "utilities",
+   "aliases": [
+    "ADANI ELECTRICITY",
+    "AEML"
+   ]
+  },
+  {
+   "name": "MSEDCL",
+   "concept": "utilities",
+   "aliases": [
+    "MSEDCL",
+    "MAHAVITARAN",
+    "MAHADISCOM"
+   ]
+  },
+  {
+   "name": "BSES",
+   "concept": "utilities",
+   "aliases": [
+    "BSES"
+   ]
+  },
+  {
+   "name": "TNEB",
+   "concept": "utilities",
+   "aliases": [
+    "TNEB",
+    "TANGEDCO"
+   ]
+  },
+  {
+   "name": "UPPCL",
+   "concept": "utilities",
+   "aliases": [
+    "UPPCL"
+   ]
+  },
+  {
+   "name": "Mahanagar Gas",
+   "concept": "utilities",
+   "aliases": [
+    "MAHANAGAR GAS",
+    "MGL"
+   ]
+  },
+  {
+   "name": "Indraprastha Gas",
+   "concept": "utilities",
+   "aliases": [
+    "INDRAPRASTHA GAS",
+    "IGL"
+   ]
+  },
+  {
+   "name": "Indane",
+   "concept": "utilities",
+   "aliases": [
+    "INDANE"
+   ]
+  },
+  {
+   "name": "HP Gas",
+   "concept": "utilities",
+   "aliases": [
+    "HP GAS",
+    "HPGAS"
+   ]
+  },
+  {
+   "name": "Bharat Gas",
+   "concept": "utilities",
+   "aliases": [
+    "BHARATGAS",
+    "BHARAT GAS"
+   ]
+  },
+  {
+   "name": "Delhi Jal Board",
+   "concept": "utilities",
+   "aliases": [
+    "DELHI JAL BOARD",
+    "DJB"
+   ]
+  },
+  {
+   "name": "BWSSB",
+   "concept": "utilities",
+   "aliases": [
+    "BWSSB"
+   ]
+  },
+  {
+   "name": "NoBroker",
+   "concept": "rent",
+   "aliases": [
+    "NOBROKER"
+   ]
+  },
+  {
+   "name": "CRED RentPay",
+   "concept": "rent",
+   "aliases": [
+    "CRED RENT",
+    "RENTPAY"
+   ]
+  },
+  {
+   "name": "Bajaj Finance",
+   "concept": "emi",
+   "aliases": [
+    "BAJAJ FINANCE",
+    "BAJAJFINANCE",
+    "BAJAJ FIN",
+    "BFL"
+   ]
+  },
+  {
+   "name": "HDB Financial",
+   "concept": "emi",
+   "aliases": [
+    "HDB FINANCIAL",
+    "HDBFS"
+   ]
+  },
+  {
+   "name": "Tata Capital",
+   "concept": "emi",
+   "aliases": [
+    "TATA CAPITAL",
+    "TATACAP"
+   ]
+  },
+  {
+   "name": "Home Credit",
+   "concept": "emi",
+   "aliases": [
+    "HOME CREDIT"
+   ]
+  },
+  {
+   "name": "Muthoot Finance",
+   "concept": "emi",
+   "aliases": [
+    "MUTHOOT"
+   ]
+  },
+  {
+   "name": "LIC Housing Finance",
+   "concept": "emi",
+   "aliases": [
+    "LIC HOUSING",
+    "LICHFL"
+   ]
+  },
+  {
+   "name": "Fullerton",
+   "concept": "emi",
+   "aliases": [
+    "FULLERTON",
+    "SMFG"
+   ]
+  },
+  {
+   "name": "Kissht",
+   "concept": "emi",
+   "aliases": [
+    "KISSHT",
+    "ONEMI"
+   ]
+  },
+  {
+   "name": "CRED",
+   "concept": "credit_card_bill",
+   "aliases": [
+    "CRED CLUB",
+    "DREAMPLUG",
+    "CRED.CLUB"
+   ]
+  },
+  {
+   "name": "Zerodha",
+   "concept": "investment",
+   "aliases": [
+    "ZERODHA"
+   ]
+  },
+  {
+   "name": "Groww",
+   "concept": "investment",
+   "aliases": [
+    "GROWW",
+    "NEXTBILLION"
+   ]
+  },
+  {
+   "name": "BSE Star MF",
+   "concept": "investment",
+   "aliases": [
+    "BSE STAR",
+    "BSESTARMF",
+    "BSE LIMITED"
+   ]
+  },
+  {
+   "name": "NSE Clearing",
+   "concept": "investment",
+   "aliases": [
+    "NSE CLEARING",
+    "NSCCL",
+    "MFUTILITY",
+    "MF UTILITIES"
+   ]
+  },
+  {
+   "name": "Upstox",
+   "concept": "investment",
+   "aliases": [
+    "UPSTOX",
+    "RKSV"
+   ]
+  },
+  {
+   "name": "Kuvera",
+   "concept": "investment",
+   "aliases": [
+    "KUVERA"
+   ]
+  },
+  {
+   "name": "Paytm Money",
+   "concept": "investment",
+   "aliases": [
+    "PAYTM MONEY"
+   ]
+  },
+  {
+   "name": "ICICI Prudential MF",
+   "concept": "investment",
+   "aliases": [
+    "ICICI PRU MF",
+    "ICICIPRUMF",
+    "ICICI PRUDENTIAL MUTUAL"
+   ]
+  },
+  {
+   "name": "SBI Mutual Fund",
+   "concept": "investment",
+   "aliases": [
+    "SBI MUTUAL",
+    "SBIMF",
+    "SBI MF"
+   ]
+  },
+  {
+   "name": "HDFC Mutual Fund",
+   "concept": "investment",
+   "aliases": [
+    "HDFC MUTUAL",
+    "HDFCMF",
+    "HDFC MF"
+   ]
+  },
+  {
+   "name": "Axis Mutual Fund",
+   "concept": "investment",
+   "aliases": [
+    "AXIS MUTUAL",
+    "AXISMF"
+   ]
+  },
+  {
+   "name": "NPS Trust",
+   "concept": "investment",
+   "aliases": [
+    "NPS TRUST",
+    "NPSTRUST",
+    "PFRDA"
+   ]
+  },
+  {
+   "name": "CAMS",
+   "concept": "investment",
+   "aliases": [
+    "CAMS",
+    "COMPUTER AGE MANAGEMENT"
+   ]
+  },
+  {
+   "name": "KFintech",
+   "concept": "investment",
+   "aliases": [
+    "KFINTECH",
+    "KFIN"
+   ]
+  },
+  {
+   "name": "LIC",
+   "concept": "insurance",
+   "aliases": [
+    "LIC OF INDIA",
+    "LIFE INSURANCE CORPORATION",
+    "LICI"
+   ]
+  },
+  {
+   "name": "HDFC Life",
+   "concept": "insurance",
+   "aliases": [
+    "HDFC LIFE",
+    "HDFCLIFE"
+   ]
+  },
+  {
+   "name": "ICICI Lombard",
+   "concept": "insurance",
+   "aliases": [
+    "ICICI LOMBARD",
+    "ICICILOMBARD"
+   ]
+  },
+  {
+   "name": "Star Health",
+   "concept": "insurance",
+   "aliases": [
+    "STAR HEALTH"
+   ]
+  },
+  {
+   "name": "Niva Bupa",
+   "concept": "insurance",
+   "aliases": [
+    "NIVA BUPA",
+    "MAX BUPA"
+   ]
+  },
+  {
+   "name": "Acko",
+   "concept": "insurance",
+   "aliases": [
+    "ACKO"
+   ]
+  },
+  {
+   "name": "PolicyBazaar",
+   "concept": "insurance",
+   "aliases": [
+    "POLICYBAZAAR",
+    "POLICY BAZAAR"
+   ]
+  },
+  {
+   "name": "Care Health",
+   "concept": "insurance",
+   "aliases": [
+    "CARE HEALTH",
+    "RELIGARE HEALTH"
+   ]
+  },
+  {
+   "name": "SBI Life",
+   "concept": "insurance",
+   "aliases": [
+    "SBI LIFE",
+    "SBILIFE"
+   ]
+  },
+  {
+   "name": "Income Tax Department",
+   "concept": "tax",
+   "aliases": [
+    "INCOME TAX",
+    "ITD",
+    "CBDT",
+    "TIN NSDL",
+    "OLTAS"
+   ]
+  },
+  {
+   "name": "GST Portal",
+   "concept": "tax",
+   "aliases": [
+    "GSTN",
+    "GST PMT",
+    "GST CHALLAN",
+    "CBIC",
+    "GSTPMT"
+   ]
+  },
+  {
+   "name": "Apollo Pharmacy",
+   "concept": "medical",
+   "aliases": [
+    "APOLLO PHARMACY",
+    "APOLLO HOSPITAL",
+    "APOLLO 24"
+   ]
+  },
+  {
+   "name": "Tata 1mg",
+   "concept": "medical",
+   "aliases": [
+    "1MG",
+    "TATA 1MG"
+   ]
+  },
+  {
+   "name": "PharmEasy",
+   "concept": "medical",
+   "aliases": [
+    "PHARMEASY"
+   ]
+  },
+  {
+   "name": "MedPlus",
+   "concept": "medical",
+   "aliases": [
+    "MEDPLUS"
+   ]
+  },
+  {
+   "name": "Practo",
+   "concept": "medical",
+   "aliases": [
+    "PRACTO"
+   ]
+  },
+  {
+   "name": "Netmeds",
+   "concept": "medical",
+   "aliases": [
+    "NETMEDS"
+   ]
+  },
+  {
+   "name": "Dr Lal PathLabs",
+   "concept": "medical",
+   "aliases": [
+    "LAL PATHLABS",
+    "LALPATH"
+   ]
+  },
+  {
+   "name": "Fortis",
+   "concept": "medical",
+   "aliases": [
+    "FORTIS"
+   ]
+  },
+  {
+   "name": "Max Healthcare",
+   "concept": "medical",
+   "aliases": [
+    "MAX HEALTHCARE",
+    "MAX HOSPITAL"
+   ]
+  },
+  {
+   "name": "Byju's",
+   "concept": "education",
+   "aliases": [
+    "BYJU",
+    "THINK AND LEARN"
+   ]
+  },
+  {
+   "name": "Unacademy",
+   "concept": "education",
+   "aliases": [
+    "UNACADEMY",
+    "SORTING HAT"
+   ]
+  },
+  {
+   "name": "Udemy",
+   "concept": "education",
+   "aliases": [
+    "UDEMY"
+   ]
+  },
+  {
+   "name": "Coursera",
+   "concept": "education",
+   "aliases": [
+    "COURSERA"
+   ]
+  },
+  {
+   "name": "PhysicsWallah",
+   "concept": "education",
+   "aliases": [
+    "PHYSICSWALLAH",
+    "PHYSICS WALLAH"
+   ]
+  },
+  {
+   "name": "Vedantu",
+   "concept": "education",
+   "aliases": [
+    "VEDANTU"
+   ]
+  },
+  {
+   "name": "upGrad",
+   "concept": "education",
+   "aliases": [
+    "UPGRAD"
+   ]
+  },
+  {
+   "name": "Paytm Wallet",
+   "concept": "wallet_load",
+   "aliases": [
+    "PAYTM WALLET",
+    "ADD MONEY TO WALLET",
+    "PAYTMWALLET"
+   ]
+  },
+  {
+   "name": "PhonePe Wallet",
+   "concept": "wallet_load",
+   "aliases": [
+    "PHONEPE WALLET"
+   ]
+  },
+  {
+   "name": "Amazon Pay Balance",
+   "concept": "wallet_load",
+   "aliases": [
+    "AMAZON PAY BALANCE",
+    "AMAZONPAY WALLET",
+    "APAY BALANCE"
+   ]
+  },
+  {
+   "name": "Razorpay",
+   "concept": "business_income",
+   "aliases": [
+    "RAZORPAY SETTLEMENT",
+    "RAZORPAY PAYMENTS",
+    "RZP SETTLEMENT"
+   ]
+  },
+  {
+   "name": "Cashfree",
+   "concept": "business_income",
+   "aliases": [
+    "CASHFREE SETTLEMENT",
+    "CASHFREE PAYMENTS"
+   ]
+  },
+  {
+   "name": "PayU",
+   "concept": "business_income",
+   "aliases": [
+    "PAYU SETTLEMENT",
+    "PAYU PAYMENTS"
+   ]
+  },
+  {
+   "name": "Paytm Settlement",
+   "concept": "business_income",
+   "aliases": [
+    "PAYTM SETTLEMENT",
+    "PAYTM PAYMENTS SERVICES"
+   ]
+  },
+  {
+   "name": "Starbucks",
+   "concept": "dining",
+   "aliases": [
+    "STARBUCKS",
+    "TATA STARBUCKS"
+   ]
+  },
+  {
+   "name": "McDonalds",
+   "concept": "dining",
+   "aliases": [
+    "MCDONALDS",
+    "HARDCASTLE",
+    "CONNAUGHT PLAZA"
+   ]
+  },
+  {
+   "name": "KFC",
+   "concept": "dining",
+   "aliases": [
+    "KFC",
+    "DEVYANI"
+   ]
+  },
+  {
+   "name": "Haldirams",
+   "concept": "dining",
+   "aliases": [
+    "HALDIRAM"
+   ]
+  },
+  {
+   "name": "Barbeque Nation",
+   "concept": "dining",
+   "aliases": [
+    "BARBEQUE NATION"
+   ]
+  },
+  {
+   "name": "Chaayos",
+   "concept": "dining",
+   "aliases": [
+    "CHAAYOS"
+   ]
+  },
+  {
+   "name": "Third Wave Coffee",
+   "concept": "dining",
+   "aliases": [
+    "THIRD WAVE"
+   ]
+  },
+  {
+   "name": "Cafe Coffee Day",
+   "concept": "dining",
+   "aliases": [
+    "CAFE COFFEE DAY",
+    "COFFEE DAY"
+   ]
+  },
+  {
+   "name": "JVVNL",
+   "concept": "utilities",
+   "aliases": [
+    "JVVNL",
+    "JAIPUR VIDYUT"
+   ]
+  },
+  {
+   "name": "AVVNL",
+   "concept": "utilities",
+   "aliases": [
+    "AVVNL"
+   ]
+  },
+  {
+   "name": "PSPCL",
+   "concept": "utilities",
+   "aliases": [
+    "PSPCL"
+   ]
+  },
+  {
+   "name": "KSEB",
+   "concept": "utilities",
+   "aliases": [
+    "KSEB",
+    "KERALA STATE ELECTRICITY"
+   ]
+  },
+  {
+   "name": "WBSEDCL",
+   "concept": "utilities",
+   "aliases": [
+    "WBSEDCL"
+   ]
+  },
+  {
+   "name": "CESC",
+   "concept": "utilities",
+   "aliases": [
+    "CESC"
+   ]
+  },
+  {
+   "name": "APSPDCL",
+   "concept": "utilities",
+   "aliases": [
+    "APSPDCL",
+    "APEPDCL"
+   ]
+  },
+  {
+   "name": "TSSPDCL",
+   "concept": "utilities",
+   "aliases": [
+    "TSSPDCL",
+    "TGSPDCL"
+   ]
+  },
+  {
+   "name": "DHBVN",
+   "concept": "utilities",
+   "aliases": [
+    "DHBVN",
+    "UHBVN"
+   ]
+  },
+  {
+   "name": "MPEB",
+   "concept": "utilities",
+   "aliases": [
+    "MPEB",
+    "MPPKVVCL",
+    "MP PASCHIM"
+   ]
+  },
+  {
+   "name": "Torrent Power",
+   "concept": "utilities",
+   "aliases": [
+    "TORRENT POWER"
+   ]
+  },
+  {
+   "name": "Gujarat Gas",
+   "concept": "utilities",
+   "aliases": [
+    "GUJARAT GAS"
+   ]
+  },
+  {
+   "name": "Adani Total Gas",
+   "concept": "utilities",
+   "aliases": [
+    "ADANI GAS",
+    "ADANI TOTAL GAS"
+   ]
+  },
+  {
+   "name": "HMWSSB",
+   "concept": "utilities",
+   "aliases": [
+    "HMWSSB"
+   ]
+  },
+  {
+   "name": "Excitel",
+   "concept": "telecom",
+   "aliases": [
+    "EXCITEL"
+   ]
+  },
+  {
+   "name": "Dish TV",
+   "concept": "telecom",
+   "aliases": [
+    "DISH TV",
+    "DISHTV",
+    "D2H"
+   ]
+  },
+  {
+   "name": "Sun Direct",
+   "concept": "telecom",
+   "aliases": [
+    "SUN DIRECT"
+   ]
+  },
+  {
+   "name": "Airtel DTH",
+   "concept": "telecom",
+   "aliases": [
+    "AIRTEL DTH",
+    "AIRTEL DIGITAL TV"
+   ]
+  },
+  {
+   "name": "You Broadband",
+   "concept": "telecom",
+   "aliases": [
+    "YOU BROADBAND"
+   ]
+  },
+  {
+   "name": "PMSBY",
+   "concept": "insurance",
+   "aliases": [
+    "PMSBY",
+    "PMJJBY",
+    "PRADHAN MANTRI SURAKSHA",
+    "PRADHAN MANTRI JEEVAN"
+   ]
+  },
+  {
+   "name": "Bajaj Allianz",
+   "concept": "insurance",
+   "aliases": [
+    "BAJAJ ALLIANZ"
+   ]
+  },
+  {
+   "name": "Tata AIA",
+   "concept": "insurance",
+   "aliases": [
+    "TATA AIA"
+   ]
+  },
+  {
+   "name": "Max Life",
+   "concept": "insurance",
+   "aliases": [
+    "MAX LIFE"
+   ]
+  },
+  {
+   "name": "Digit Insurance",
+   "concept": "insurance",
+   "aliases": [
+    "GO DIGIT",
+    "DIGIT INSURANCE"
+   ]
+  },
+  {
+   "name": "New India Assurance",
+   "concept": "insurance",
+   "aliases": [
+    "NEW INDIA ASSURANCE"
+   ]
+  },
+  {
+   "name": "INDmoney",
+   "concept": "investment",
+   "aliases": [
+    "INDMONEY"
+   ]
+  },
+  {
+   "name": "smallcase",
+   "concept": "investment",
+   "aliases": [
+    "SMALLCASE"
+   ]
+  },
+  {
+   "name": "ET Money",
+   "concept": "investment",
+   "aliases": [
+    "ET MONEY",
+    "ETMONEY"
+   ]
+  },
+  {
+   "name": "Angel One",
+   "concept": "investment",
+   "aliases": [
+    "ANGEL ONE",
+    "ANGEL BROKING"
+   ]
+  },
+  {
+   "name": "Dhan",
+   "concept": "investment",
+   "aliases": [
+    "DHAN",
+    "RAISE SECURITIES"
+   ]
+  },
+  {
+   "name": "5paisa",
+   "concept": "investment",
+   "aliases": [
+    "5PAISA"
+   ]
+  },
+  {
+   "name": "ICICI Direct",
+   "concept": "investment",
+   "aliases": [
+    "ICICIDIRECT",
+    "ICICI SECURITIES"
+   ]
+  },
+  {
+   "name": "HDFC Securities",
+   "concept": "investment",
+   "aliases": [
+    "HDFC SECURITIES",
+    "HDFCSEC"
+   ]
+  },
+  {
+   "name": "Motilal Oswal",
+   "concept": "investment",
+   "aliases": [
+    "MOTILAL OSWAL"
+   ]
+  },
+  {
+   "name": "Scripbox",
+   "concept": "investment",
+   "aliases": [
+    "SCRIPBOX"
+   ]
+  },
+  {
+   "name": "Recurring Deposit",
+   "concept": "investment",
+   "aliases": [
+    "RD INSTALLMENT",
+    "RD INSTALMENT",
+    "RECURRING DEPOSIT",
+    "RD INST"
+   ]
+  },
+  {
+   "name": "PPF",
+   "concept": "investment",
+   "aliases": [
+    "PPF DEPOSIT",
+    "PPF A/C",
+    "PUBLIC PROVIDENT"
+   ]
+  },
+  {
+   "name": "Sukanya Samriddhi",
+   "concept": "investment",
+   "aliases": [
+    "SUKANYA",
+    "SSY"
+   ]
+  },
+  {
+   "name": "Sovereign Gold Bond",
+   "concept": "investment",
+   "aliases": [
+    "SOVEREIGN GOLD",
+    "SGB"
+   ]
+  },
+  {
+   "name": "Cholamandalam",
+   "concept": "emi",
+   "aliases": [
+    "CHOLAMANDALAM",
+    "CIFCL"
+   ]
+  },
+  {
+   "name": "Shriram Finance",
+   "concept": "emi",
+   "aliases": [
+    "SHRIRAM FINANCE",
+    "SHRIRAM TRANSPORT"
+   ]
+  },
+  {
+   "name": "L&T Finance",
+   "concept": "emi",
+   "aliases": [
+    "L&T FINANCE",
+    "LTFS",
+    "L AND T FINANCE"
+   ]
+  },
+  {
+   "name": "Mahindra Finance",
+   "concept": "emi",
+   "aliases": [
+    "MAHINDRA FINANCE",
+    "MMFSL"
+   ]
+  },
+  {
+   "name": "IIFL",
+   "concept": "emi",
+   "aliases": [
+    "IIFL"
+   ]
+  },
+  {
+   "name": "Poonawalla Fincorp",
+   "concept": "emi",
+   "aliases": [
+    "POONAWALLA"
+   ]
+  },
+  {
+   "name": "Hero FinCorp",
+   "concept": "emi",
+   "aliases": [
+    "HERO FINCORP"
+   ]
+  },
+  {
+   "name": "TVS Credit",
+   "concept": "emi",
+   "aliases": [
+    "TVS CREDIT"
+   ]
+  },
+  {
+   "name": "Aditya Birla Finance",
+   "concept": "emi",
+   "aliases": [
+    "ADITYA BIRLA FIN",
+    "ABFL"
+   ]
+  },
+  {
+   "name": "KreditBee",
+   "concept": "emi",
+   "aliases": [
+    "KREDITBEE"
+   ]
+  },
+  {
+   "name": "MoneyView",
+   "concept": "emi",
+   "aliases": [
+    "MONEYVIEW",
+    "MONEY VIEW"
+   ]
+  },
+  {
+   "name": "Navi",
+   "concept": "emi",
+   "aliases": [
+    "NAVI FINSERV"
+   ]
+  },
+  {
+   "name": "Piramal Finance",
+   "concept": "emi",
+   "aliases": [
+    "PIRAMAL"
+   ]
+  },
+  {
+   "name": "Freecharge",
+   "concept": "wallet_load",
+   "aliases": [
+    "FREECHARGE"
+   ]
+  },
+  {
+   "name": "MobiKwik",
+   "concept": "wallet_load",
+   "aliases": [
+    "MOBIKWIK",
+    "ONE MOBIKWIK"
+   ]
+  },
+  {
+   "name": "Ola Money",
+   "concept": "wallet_load",
+   "aliases": [
+    "OLA MONEY",
+    "OLAMONEY"
+   ]
+  },
+  {
+   "name": "Paytm Add Money",
+   "concept": "wallet_load",
+   "aliases": [
+    "PAYTM ADD MONEY",
+    "ADD MONEY"
+   ]
+  },
+  {
+   "name": "Burger King",
+   "concept": "dining",
+   "aliases": [
+    "BURGER KING"
+   ]
+  },
+  {
+   "name": "Pizza Hut",
+   "concept": "dining",
+   "aliases": [
+    "PIZZA HUT"
+   ]
+  },
+  {
+   "name": "Subway",
+   "concept": "dining",
+   "aliases": [
+    "SUBWAY"
+   ]
+  },
+  {
+   "name": "Wow Momo",
+   "concept": "dining",
+   "aliases": [
+    "WOW MOMO"
+   ]
+  },
+  {
+   "name": "Saravana Bhavan",
+   "concept": "dining",
+   "aliases": [
+    "SARAVANA BHAVAN"
+   ]
+  },
+  {
+   "name": "Chai Point",
+   "concept": "dining",
+   "aliases": [
+    "CHAI POINT",
+    "CHAIPOINT"
+   ]
+  },
+  {
+   "name": "Faasos",
+   "concept": "food_delivery",
+   "aliases": [
+    "FAASOS"
+   ]
+  },
+  {
+   "name": "Behrouz",
+   "concept": "food_delivery",
+   "aliases": [
+    "BEHROUZ"
+   ]
+  },
+  {
+   "name": "Box8",
+   "concept": "food_delivery",
+   "aliases": [
+    "BOX8"
+   ]
+  },
+  {
+   "name": "Manipal Hospitals",
+   "concept": "medical",
+   "aliases": [
+    "MANIPAL HOSPITAL"
+   ]
+  },
+  {
+   "name": "Narayana Health",
+   "concept": "medical",
+   "aliases": [
+    "NARAYANA HEALTH",
+    "NARAYANA HRUDAYALAYA"
+   ]
+  },
+  {
+   "name": "Medanta",
+   "concept": "medical",
+   "aliases": [
+    "MEDANTA"
+   ]
+  },
+  {
+   "name": "Aster",
+   "concept": "medical",
+   "aliases": [
+    "ASTER DM",
+    "ASTER HOSPITAL"
+   ]
+  },
+  {
+   "name": "Metropolis",
+   "concept": "medical",
+   "aliases": [
+    "METROPOLIS"
+   ]
+  },
+  {
+   "name": "Thyrocare",
+   "concept": "medical",
+   "aliases": [
+    "THYROCARE"
+   ]
+  },
+  {
+   "name": "Wellness Forever",
+   "concept": "medical",
+   "aliases": [
+    "WELLNESS FOREVER"
+   ]
+  },
+  {
+   "name": "Cloudnine",
+   "concept": "medical",
+   "aliases": [
+    "CLOUDNINE"
+   ]
+  },
+  {
+   "name": "Aakash",
+   "concept": "education",
+   "aliases": [
+    "AAKASH EDUCATIONAL",
+    "AAKASH INSTITUTE"
+   ]
+  },
+  {
+   "name": "Allen",
+   "concept": "education",
+   "aliases": [
+    "ALLEN CAREER"
+   ]
+  },
+  {
+   "name": "FIITJEE",
+   "concept": "education",
+   "aliases": [
+    "FIITJEE"
+   ]
+  },
+  {
+   "name": "Simplilearn",
+   "concept": "education",
+   "aliases": [
+    "SIMPLILEARN"
+   ]
+  },
+  {
+   "name": "Great Learning",
+   "concept": "education",
+   "aliases": [
+    "GREAT LEARNING"
+   ]
+  },
+  {
+   "name": "Cuemath",
+   "concept": "education",
+   "aliases": [
+    "CUEMATH"
+   ]
+  },
+  {
+   "name": "Rapido Bike",
+   "concept": "cab_ride",
+   "aliases": [
+    "RAPIDO BIKE"
+   ]
+  },
+  {
+   "name": "BluSmart",
+   "concept": "cab_ride",
+   "aliases": [
+    "BLUSMART"
+   ]
+  },
+  {
+   "name": "Yulu",
+   "concept": "cab_ride",
+   "aliases": [
+    "YULU"
+   ]
+  },
+  {
+   "name": "ConfirmTkt",
+   "concept": "travel",
+   "aliases": [
+    "CONFIRMTKT"
+   ]
+  },
+  {
+   "name": "ixigo",
+   "concept": "travel",
+   "aliases": [
+    "IXIGO"
+   ]
+  },
+  {
+   "name": "Abhibus",
+   "concept": "travel",
+   "aliases": [
+    "ABHIBUS"
+   ]
+  },
+  {
+   "name": "SpiceJet",
+   "concept": "travel",
+   "aliases": [
+    "SPICEJET"
+   ]
+  },
+  {
+   "name": "Vistara",
+   "concept": "travel",
+   "aliases": [
+    "VISTARA"
+   ]
+  },
+  {
+   "name": "Treebo",
+   "concept": "travel",
+   "aliases": [
+    "TREEBO"
+   ]
+  },
+  {
+   "name": "FabHotels",
+   "concept": "travel",
+   "aliases": [
+    "FABHOTELS"
+   ]
+  },
+  {
+   "name": "Lenskart",
+   "concept": "shopping",
+   "aliases": [
+    "LENSKART"
+   ]
+  },
+  {
+   "name": "Tata CLiQ",
+   "concept": "shopping",
+   "aliases": [
+    "TATA CLIQ",
+    "TATACLIQ"
+   ]
+  },
+  {
+   "name": "Vijay Sales",
+   "concept": "shopping",
+   "aliases": [
+    "VIJAY SALES"
+   ]
+  },
+  {
+   "name": "Pepperfry",
+   "concept": "shopping",
+   "aliases": [
+    "PEPPERFRY"
+   ]
+  },
+  {
+   "name": "Urban Company",
+   "concept": "shopping",
+   "aliases": [
+    "URBAN COMPANY",
+    "URBANCLAP"
+   ]
+  },
+  {
+   "name": "FirstCry",
+   "concept": "shopping",
+   "aliases": [
+    "FIRSTCRY"
+   ]
+  },
+  {
+   "name": "Nature's Basket",
+   "concept": "groceries",
+   "aliases": [
+    "NATURES BASKET",
+    "NATURE'S BASKET"
+   ]
+  },
+  {
+   "name": "Ratnadeep",
+   "concept": "groceries",
+   "aliases": [
+    "RATNADEEP"
+   ]
+  },
+  {
+   "name": "Star Bazaar",
+   "concept": "groceries",
+   "aliases": [
+    "STAR BAZAAR"
+   ]
+  },
+  {
+   "name": "Country Delight",
+   "concept": "groceries",
+   "aliases": [
+    "COUNTRY DELIGHT"
+   ]
+  },
+  {
+   "name": "Milkbasket",
+   "concept": "groceries",
+   "aliases": [
+    "MILKBASKET"
+   ]
+  },
+  {
+   "name": "Zee5",
+   "concept": "entertainment",
+   "aliases": [
+    "ZEE5"
+   ]
+  },
+  {
+   "name": "Amazon Prime",
+   "concept": "entertainment",
+   "aliases": [
+    "PRIME VIDEO",
+    "AMAZON PRIME"
+   ]
+  },
+  {
+   "name": "Apple Services",
+   "concept": "entertainment",
+   "aliases": [
+    "APPLE.COM/BILL",
+    "APPLE SERVICES",
+    "ITUNES"
+   ]
+  },
+  {
+   "name": "JioSaavn",
+   "concept": "entertainment",
+   "aliases": [
+    "JIOSAAVN",
+    "SAAVN"
+   ]
+  },
+  {
+   "name": "Gaana",
+   "concept": "entertainment",
+   "aliases": [
+    "GAANA"
+   ]
+  },
+  {
+   "name": "Paytm Insider",
+   "concept": "entertainment",
+   "aliases": [
+    "PAYTM INSIDER",
+    "INSIDER.IN"
+   ]
+  },
+  {
+   "name": "District",
+   "concept": "entertainment",
+   "aliases": [
+    "DISTRICT BY ZOMATO"
+   ]
+  }
+ ],
+ "vpa_handles": {
+  "swiggy": "Swiggy",
+  "swiggyupi": "Swiggy",
+  "zomatoonline": "Zomato",
+  "zomato": "Zomato",
+  "blinkit": "Blinkit",
+  "zeptonow": "Zepto",
+  "zepto": "Zepto",
+  "bigbasket": "BigBasket",
+  "amazonupi": "Amazon",
+  "amazon": "Amazon",
+  "flipkart": "Flipkart",
+  "fkpay": "Flipkart",
+  "myntra": "Myntra",
+  "uber": "Uber",
+  "olacabs": "Ola",
+  "rapido": "Rapido",
+  "irctc": "IRCTC",
+  "makemytrip": "MakeMyTrip",
+  "netflix": "Netflix",
+  "spotify": "Spotify",
+  "bookmyshow": "BookMyShow",
+  "jio": "Jio",
+  "myjio": "Jio",
+  "airtel": "Airtel",
+  "airtelpayments": "Airtel",
+  "bescom": "BESCOM",
+  "tatapower": "Tata Power",
+  "nobroker": "NoBroker",
+  "cred.club": "CRED",
+  "cred": "CRED",
+  "zerodha": "Zerodha",
+  "groww": "Groww",
+  "bsestarmf": "BSE Star MF",
+  "lic": "LIC",
+  "apollopharmacy": "Apollo Pharmacy",
+  "pharmeasy": "PharmEasy",
+  "byjus": "Byju's",
+  "dmart": "DMart",
+  "jiomart": "JioMart",
+  "starbucks": "Starbucks",
+  "dominos": "Dominos",
+  "instamart": "Swiggy Instamart",
+  "redbus": "redBus",
+  "indigo": "IndiGo",
+  "hotstar": "JioHotstar",
+  "practo": "Practo",
+  "1mg": "Tata 1mg",
+  "upstox": "Upstox",
+  "bajajfinance": "Bajaj Finance",
+  "bfl": "Bajaj Finance",
+  "paytmwallet": "Paytm Wallet",
+  "razorpay": "Razorpay",
+  "cashfree": "Cashfree",
+  "dmrc": "Delhi Metro",
+  "excitel": "Excitel",
+  "dishtv": "Dish TV",
+  "indmoney": "INDmoney",
+  "freecharge": "Freecharge",
+  "mobikwik": "MobiKwik",
+  "olamoney": "Ola Money",
+  "jvvnl": "JVVNL",
+  "kseb": "KSEB",
+  "tneb": "TNEB",
+  "chaipoint": "Chai Point",
+  "box8": "Box8",
+  "lenskart": "Lenskart",
+  "angelone": "Angel One",
+  "cholamandalam": "Cholamandalam",
+  "kreditbee": "KreditBee",
+  "urbancompany": "Urban Company",
+  "ixigo": "ixigo"
+ }
+}

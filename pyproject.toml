@@ -1,0 +1,33 @@
+[project]
+name = "arth"
+version = "0.1.0"
+description = "Indian transaction categorization API: calibrated, certified, bring-your-own-taxonomy"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110",
+  "pydantic>=2.6",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+onnx = ["onnxruntime>=1.17", "tokenizers>=0.15", "huggingface_hub>=0.20"]
+serve = ["uvicorn>=0.29"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["arth*"]
+
+[tool.setuptools.package-data]
+arth = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: trains models end to end (deselect with -m 'not slow')"]
