@@ -21,7 +21,7 @@ pip install -e ".[dev,serve]"          # add ".[onnx]" for the bge-small embedde
 python -m arth.train --pool-size 20000  # synthetic pool -> students -> calibration -> models/v1
 uvicorn arth.api:app                    # ARTH_MODELS_DIR=models ARTH_DB=arth.sqlite by default
 
-pytest -q                               # ~4 min: unit, API, behaviour evals, quality floors
+pytest -q                               # ~2 min: unit, API, behaviour evals, quality floors
 python -m arth.evals.run --seeds 0 1 2  # full launch-gate report -> runs/eval/report.md
 python -m arth.evals.behaviour          # named behaviour cases against the current model
 ```
@@ -104,7 +104,34 @@ Validation errors return 422 with a message naming the field. Limits: 255 option
 
 `python -m arth.evals.run` trains one bundle per seed and scores it on the gold eval split. It checks every PRD gate. A gate that can't run here is reported as `skipped` with the reason, never passed silently. The test suite (`tests/test_evals.py`) also asserts quality floors and 25 named behaviour cases (`arth/evals/behaviour.py`) on every run, so regressions fail CI.
 
-RESULTS_PLACEHOLDER
+### Results (3 seeds, 20k synthetic lines, proxy gold eval split of 242 lines)
+
+The full reports are in [`docs/eval/report_hash.md`](docs/eval/report_hash.md) (default embedder) and [`docs/eval/report_hash_bge.md`](docs/eval/report_hash_bge.md) (hashing + bge-small).
+
+| Gate | Pass rule | Result (hash, seeds 0 / 1 / 2) | Notes |
+| --- | --- | --- | --- |
+| Accuracy | Macro-F1 beats every baseline | **pass** / pass / pass | Student 0.870 / 0.862 / 0.890 vs regex 0.744 and embedding zero-shot 0.528. The zero-shot LLM baseline needs `HF_TOKEN`. The 82M SMS-parser baseline is not wired up. |
+| Per-slice | Within 2 points of the teacher | skipped | Needs the teacher. Worst slice is unseen merchants (macro-F1 0.71 vs 0.83 known). |
+| Certified coverage | ≥70% at 98% precision, 95% confidence | **fail** (0%) | See below. |
+| Calibration | ECE ≤ 0.05 | 0.050 / 0.030 / 0.048 | Right at the line. Fails by 0.0004 on seed 0. |
+| Generalization | Held-out taxonomy within 5 points | **fail** | GST ledger heads zero-shot: 0.57–0.63 vs 0.85 in-taxonomy. |
+| Synthetic gap | < 10 points | 9.0 / 10.1 / 6.9 | Borderline; seed 1 misses by 0.1 point. |
+| Latency | p95 < 50 ms, 1,000 lines < 10 s | **pass** | p95 29–33 ms per single-line call, 1.3–1.4 s per 1,000-line batch (hashing, 1 CPU thread). |
+| Device | ONNX INT8 on Android | skipped | FR-14 is V1.5. |
+| Stability | No gate flips across seeds | **fail** | Calibration and synthetic gap sit on their thresholds. |
+
+The yes/no questions certify well. For example, `is_salary`, `is_rent`, `is_refund` and `is_p2p` auto-label 87–97% of eval lines at 98–100% realised precision, on banks never seen during calibration.
+
+Adding bge-small (`hash+bge-small`) changes little: macro-F1 is 0.874 / 0.878 / 0.884, and GST zero-shot is 0.56–0.61. It also fails the latency gate in this container (p95 66–75 ms single-threaded). Hashing stays the default.
+
+### What the numbers say
+
+1. **Certified coverage is limited by the calibration sample size, not only by the model.** A one-sided 95% Clopper–Pearson bound of 98% needs at least 149 auto-labelled lines with *zero* errors. With 178 calibration lines and a 22-class taxonomy at about 86% accuracy, no threshold can certify. With the PRD's planned 150–300 calibration lines this stays true: 70% coverage of 300 lines (210 lines) still needs 0 errors. A calibration split of about 1,000 lines allows a handful of errors (about 99.1% precision on the auto set). That is the realistic path to the 70% target, alongside better models. Yes/no questions already certify.
+2. **Certification is per customer for a reason.** `coarse` certified on the calibration banks but realised 97.2% (not 98%) on the eval banks. The bank-split gold set makes the shift visible. A certificate holds for data like its calibration sample.
+3. **Zero-shot transfer to unseen taxonomies is the weakest link.** It is the job the PRD gives GLiClass. The general student here is the bar it has to beat. Until then, an unsaved taxonomy is never auto-labelled for multi-class questions, which is the safe behaviour.
+4. **The proxy gold set is not real data.** All numbers above are against hand-written lines. Every gate must be re-run on the real, consented gold set (drop it in at `data/gold/`) before any launch claim.
+
+To reproduce: `python -m arth.evals.run --seeds 0 1 2` (about 5 min), or add `--embedder hash+bge-small` (about 30 min with ONNX on 4 threads).
 
 ## Layout
 
